@@ -1,4 +1,4 @@
 - name: mocha
   tag: master
   service: hellorainbird
-  command: ./test/test.js
+  command: mocha
