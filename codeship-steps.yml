@@ -1,4 +1,4 @@
 steps:
   - tag: master
     service: hellorainbird
-    command: mocha
+    command: ./test/test.js
