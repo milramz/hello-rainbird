@@ -1,3 +1,4 @@
-test:
-  override:
-    - mocha
+- name: test
+  tag: master
+  service: hellorainbird
+  command: mocha
