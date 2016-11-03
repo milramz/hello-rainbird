@@ -1,0 +1,5 @@
+hellorainbird:
+  build:
+    image: milramz/hello-rainbird
+    path: hello-rainbird
+    dockerfile_path: Dockerfile

@@ -1,0 +1,4 @@
+steps:
+  - tag: master
+    service: hellorainbird
+    command: mocha
