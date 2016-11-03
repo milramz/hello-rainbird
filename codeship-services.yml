@@ -1,4 +1,4 @@
-hellorainbird:
+hello-rainbird:
   build:
     image: milramz/hello-rainbird
     path: hello-rainbird

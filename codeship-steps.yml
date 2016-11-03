@@ -1,4 +1,4 @@
-- name: mocha 
+- name: mocha
   tag: master
-  service: hellorainbird
+  service: hello-rainbird
   command: ./test/test.js
