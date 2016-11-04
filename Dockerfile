@@ -14,6 +14,9 @@ RUN npm install -g mocha
 # Copy app to /src
 COPY . /src
 
+# Set the WORKDIR to /src so all following commands run in /src
+WORKDIR /src
+
 # Install app and dependencies into /src
 RUN cd /src; npm install
 
